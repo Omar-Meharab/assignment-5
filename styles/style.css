@@ -15,12 +15,12 @@ a{
     color: black;
 }
 
-form{
+.search-box{
     margin: auto;
     max-width: 300px;
 }
 
-form.search-box input {
+.search-box input {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -29,7 +29,7 @@ form.search-box input {
   background: #f1f1f1;
 }
 
-form.search-box button {
+.search-box button {
   float: left;
   width: 20%;
   padding: 10px 0px;
@@ -41,6 +41,6 @@ form.search-box button {
   cursor: pointer;
 }
 
-form.search-box button:hover {
+.search-box button:hover {
   background: #0b7dda;
 }
