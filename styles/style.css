@@ -45,3 +45,25 @@ a{
   background: #0b7dda;
 }
 
+.meal-box{
+  display: grid;
+  float: left;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.meal-box img{
+  max-width: 100%;
+}
+
+.meal-box p {
+  max-width: 100%;
+}
+
+.individual-divs{
+  max-width: 70%;
+  margin: 50px;
+  border: 1px solid gray;
+}

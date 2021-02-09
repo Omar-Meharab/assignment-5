@@ -8,7 +8,7 @@ const searchFoods = () => {
 
 const displayMeals = meals => {
     const mealNamesDiv = document.getElementById('meal-containers');
-
+    mealNamesDiv.innerHTML = '';
     meals.forEach(meals => {
         console.log(meals.strMealThumb);
         const individualMealDivs = document.createElement('div');
