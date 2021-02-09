@@ -22,4 +22,3 @@ const displayMeals = meals => {
         console.log(mealNamesDiv);
     });
 }
-
