@@ -33,7 +33,7 @@ a{
   float: left;
   width: 20%;
   padding: 10px 0px;
-  background: #5983a5;
+  background: #F06C4E;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -65,7 +65,33 @@ a{
 .individual-divs{
   max-width: 70%;
   margin: 50px;
-  border: 1px solid gray;
   border-radius: 10px;
   overflow: hidden;
+  background-color: #F8F7F5;
+}
+
+.info-box{
+  padding: 20px;
+  max-width: 30%;
+  margin: 100px;
+  overflow: hidden;
+}
+
+.info-box img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+li:empty{
+  display: none;
+}
+
+body{
+  background-color: #e5ecf2;
+}
+
+.text-error{
+  margin: 200px;
+  color: red;
+  font-size: 30px;
 }
